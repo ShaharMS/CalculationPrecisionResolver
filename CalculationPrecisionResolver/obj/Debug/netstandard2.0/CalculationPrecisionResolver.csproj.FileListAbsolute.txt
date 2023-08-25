@@ -1,0 +1,13 @@
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.csproj.AssemblyReference.cache
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.AssemblyInfoInputs.cache
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.AssemblyInfo.cs
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.csproj.CoreCompileInputs.cache
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\bin\Debug\netstandard2.0\CalculationPrecisionResolver.deps.json
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\bin\Debug\netstandard2.0\CalculationPrecisionResolver.dll
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\bin\Debug\netstandard2.0\CalculationPrecisionResolver.pdb
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.dll
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\obj\Debug\netstandard2.0\CalculationPrecisionResolver.pdb
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\bin\Debug\netstandard2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\bin\Debug\netstandard2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\shaha\Desktop\Github\CalculationPrecisionResolver\CalculationPrecisionResolver\bin\Debug\netstandard2.0\Microsoft.TestPlatform.AdapterUtilities.dll

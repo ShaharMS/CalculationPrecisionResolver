@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "rJpjozkAjEPmfjZ6Uzj5rh7nVG9KNhaIg0LP43QRlOa+qU2vh2+Ik+WONL3s+bq7r9/BPMtRwMBHcwHI2t24VQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shaha\\Desktop\\Github\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.codeanalysis.common\\4.7.0\\microsoft.codeanalysis.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.7.0\\microsoft.codeanalysis.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.net.test.sdk\\17.7.1\\microsoft.net.test.sdk.17.7.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.7.1\\microsoft.testplatform.objectmodel.17.7.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\microsoft.testplatform.testhost\\17.7.1\\microsoft.testplatform.testhost.17.7.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\mstest.testadapter\\3.1.1\\mstest.testadapter.3.1.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\mstest.testframework\\3.1.1\\mstest.testframework.3.1.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\system.reflection.metadata\\7.0.0\\system.reflection.metadata.7.0.0.nupkg.sha512",
+    "C:\\Users\\shaha\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
