@@ -11,7 +11,7 @@ namespace CalculationPrecisionResolver
     [Generator]
     public class ComparisonConverterGenerator : ISourceGenerator
     {
-        public double Epsilon = 0.000001;
+        public double Epsilon = 0.0001;
         public void Initialize(GeneratorInitializationContext context)
         {
             // No initialization required
@@ -30,7 +30,7 @@ namespace CalculationPrecisionResolver
                 Console.WriteLine(syntaxTree.FilePath);
                 var sourceText = SourceText.From(newRoot.ToFullString(), Encoding.UTF8);
                 context.AddSource(
-                    syntaxTree.FilePath,
+                    syntaxTree.FilePath.Length != 0 ? syntaxTree.FilePath : "Local",
                     sourceText
                 );
             }
@@ -41,9 +41,8 @@ namespace CalculationPrecisionResolver
             return node.ReplaceNodes(node.DescendantNodes(), (original, rewritten) =>
             {
                 if (rewritten is BinaryExpressionSyntax binaryExpr &&
-                    binaryExpr.Left is PredefinedTypeSyntax typeSyntax &&
-                    typeSyntax.Keyword.Text == "double" &&
-                    binaryExpr.Right is LiteralExpressionSyntax literal)
+                    binaryExpr.Left is ExpressionSyntax typeSyntax &&
+                    binaryExpr.Right is ExpressionSyntax literal)
                 {
                     var epsilon = SyntaxFactory.ParseExpression($"{Epsilon}");
                     var leftOperand = binaryExpr.Left;
@@ -90,7 +89,7 @@ namespace CalculationPrecisionResolver
                         }
                         else
                         {
-                            leftOperand = SyntaxFactory.BinaryExpression(SyntaxKind.AddExpression, leftOperand, epsilon);
+                            leftOperand = SyntaxFactory.BinaryExpression(SyntaxKind.SubtractExpression, leftOperand, epsilon);
                         }
                         newComparison = SyntaxFactory.BinaryExpression(SyntaxKind.LessThanExpression, leftOperand, rightOperand);
                     }
