@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shaha\\Desktop\\Github\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj": {}
+    "c:\\Users\\shahar\\Documents\\GitHub\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shaha\\Desktop\\Github\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj": {
+    "c:\\Users\\shahar\\Documents\\GitHub\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shaha\\Desktop\\Github\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj",
+        "projectUniqueName": "c:\\Users\\shahar\\Documents\\GitHub\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj",
         "projectName": "CalculationPrecisionResolver",
-        "projectPath": "C:\\Users\\shaha\\Desktop\\Github\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj",
-        "packagesPath": "C:\\Users\\shaha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shaha\\Desktop\\Github\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\obj\\",
+        "projectPath": "c:\\Users\\shahar\\Documents\\GitHub\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\CalculationPrecisionResolver.csproj",
+        "packagesPath": "C:\\Users\\shahar\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\shahar\\Documents\\GitHub\\CalculationPrecisionResolver\\CalculationPrecisionResolver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\shaha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,12 +78,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
